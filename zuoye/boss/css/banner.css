@@ -1,0 +1,30 @@
+#banner{
+    height: 397px;
+    border-bottom: 2px solid #515961;
+    background: #475058;
+}
+#banner .banner{
+    height: 272px;
+    width: 1171px;
+    margin: 0 auto;
+    padding-top: 107px;
+}
+#banner .banner .tit{
+    font-size: 35px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 51px;
+    text-align: center;
+}
+#banner .banner .meiti{
+    width: 187px;
+    height: 44px;
+    margin-left: 492px;
+    background: #53cac3;
+    border-radius: 10%;
+    font-size: 19px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}

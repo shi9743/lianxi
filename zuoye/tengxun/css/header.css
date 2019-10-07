@@ -1,0 +1,96 @@
+#header{
+			width: 100%;
+			height: 78px;
+		}
+		#header .header{
+			width: 1066px;
+			height: 78px;
+			margin: 0 auto;
+			/*background: red;*/
+		}
+		#header .header .logo{
+			margin-top: 16px;
+			float: left;
+			display: block;
+		}
+		#header .header .di1{
+			width: 430px;
+			height: 14px;
+			float: left;
+			/*font-size: 14px;*/
+			/*line-height: 14px;*/
+			/*background: pink;*/
+			padding-top: 48px;
+			margin-left: 104px;
+			/*color: #857b71;*/
+		}
+		#header .header .di1 .a1{
+			margin-right: 54px;
+			float: left;
+			font-size: 12px;
+			line-height: 14px;
+			color: #857b71;
+		}
+		#header .header .di1 .a2{
+			margin-right: 72px;
+			float: left;
+			font-size: 12px;
+			line-height: 14px;
+			color: #857b71;
+		}
+		#header .header .di1 .a3{
+			margin-right: 62px;
+			float: left;
+			font-size: 12px;
+			line-height: 14px;
+			color: #857b71;
+		}
+		#header .header .di1 .a4{
+			float: left;
+			font-size: 12px;
+			line-height: 14px;
+			color: #857b71;
+		}
+		#header .header .di3 .di2{
+			width: 80px;
+			height: 13px;
+			float: right;
+			/*padding-top: 16px;*/
+			/*background: yellow;*/
+		}
+		#header .header .di2 .a1{
+			font-size: 11px;
+			line-height: 13px;
+			width: 40px;
+			color: #a2988e;
+			border-right: 1px solid #ccb69f;
+			float: left;
+		}
+		#header .header .di3 .di2 .a2{
+			font-size: 11px;
+			line-height: 13px;
+			width: 39px;
+			color: #a2988e;
+			/*border-right: 1px solid #ccb69f;*/
+			text-indent: 15px;
+			float: left;
+		}
+		#header .header .di3 .inp1{
+			width: 141px;
+			height: 24px;
+			border: 1px solid #ccb69f;
+			margin-top: 8px;
+			background: 
+		}
+		#header .header .di3{
+			width: 143px;
+			height: 45px;
+			padding-top: 16px;
+			float: right;
+			position: relative;
+		}
+		#header .header .di3 .sousou{
+			position: absolute;
+			top: 41px;
+			right: 8px;
+		}

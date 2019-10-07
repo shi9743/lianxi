@@ -1,0 +1,32 @@
+#banner{
+			width: 100%;
+			height: 357px;
+		}
+		#banner .banner{
+			/*margin: 0 auto;*/
+			height: 357px;
+			width: 100%;
+			position: relative;
+		}
+		#banner .banner .ban{
+			height: 357px;
+			width: 100%;
+		}
+		#banner .banner .di1{
+			width: 78px;
+			height: 16px;
+			position: absolute;
+			right: 68px;
+			bottom: 18px;
+		}
+		#banner .banner .di1 .a1{
+			height: 12px;
+			width: 12px;
+			border: 2px solid #d3694f;
+			border-radius: 50%;
+			margin-right: 10px;
+			float: left;
+		}
+		#banner .banner .di1 .a1:hover{
+			border-color: #2ca5dc;
+		}

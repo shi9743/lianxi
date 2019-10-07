@@ -1,0 +1,36 @@
+#footer{
+    height: 232px;
+    border-top: 1px solid #121212;
+    background: #000;
+}
+#footer .footer{
+    height: 166px;
+    width: 1171px;
+    margin: 0 auto;
+    padding-top: 66px;
+}
+#footer .footer .di1{
+    margin-left: 399px;
+    height: 16px;
+    margin-bottom: 41px;
+}
+#footer .footer .di1 .a1{
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 47px;
+    color: #fff;
+    float: left;
+}
+#footer .footer .di2{
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 16px;
+}
+#footer .footer .di3{
+    font-size: 13px;
+    line-height: 13px;
+    text-align: center;
+    color: #fff;
+}

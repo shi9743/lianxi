@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>注册</title>
+  <style>
+    .box {
+      width: 400px;
+      margin: 0 auto;
+      border: 1px solid black;
+      padding: 10px;
+    }
+
+    .box .row {
+      width: 100px;
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <form id="myform">
+      <div class="row">
+        <label for="username">用户名</label>
+        <input type="text" name="username" id="username" placeholder="用户名" required />
+      </div>
+      <div class="row">
+        <label for="password">密 码</label>
+        <input type="password" name="password" id="password" placeholder="密码" required />
+      </div>
+      <div class="row">
+        <label for="repasswd">确认密码</label>
+        <input type="password" name="repasswd" id="repasswd" placeholder="确认密码" required />
+      </div>
+      <div class="row">
+        <button>注册</button>
+      </div>
+    </form>
+  </div>
+  <script>
+    var myform = document.querySelector('#myform');
+
+    myform.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var target=e.target;
+      var username = this.username.value;
+      var password = this.password.value;
+      var repasswd = this.repasswd.value;
+      var xhr = new XMLHttpRequest;
+      xhr.open('post', 'regsiter.php');
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          var data = JSON.parse(xhr.responseText);
+          alert(data.msg);
+          switch (data.code) {
+            case 1:
+              location = './login.html';
+              break;
+            case -1:
+              target.username.value = '';
+              target.username.focus();
+              break;
+            case -2:
+              target.repasswd.value = '';
+              target.repasswd.focus();
+            default:
+          }
+        }
+      }
+      xhr.send('username=' + username + '&password=' + password + '&repasswd=' + repasswd);
+    })
+  </script>
+</body>
+
+</html>

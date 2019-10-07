@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            width: 100%;
+            height: 141px;
+            background: #f0f0f0;
+        }
+
+        #header .header {
+            width: 1348px;
+            height: 141px;
+            margin: 0 auto;
+        }
+
+        #header .header .di1 {
+            height: 5px;
+            background: #639bcd;
+        }
+
+        #header .header .di2 {
+            height: 93px;
+            background: #fff;
+        }
+
+        #header .header .di2 .logo {
+            margin-left: 175px;
+            margin-top: 17px;
+            float: left;
+        }
+
+        #header .header .di2 .pro {
+            width: 272px;
+            height: 12px;
+            margin-top: 15px;
+            float: right;
+            margin-right: 174px;
+        }
+
+        #header .header .di2 .pro .pro1 {
+            width: 65px;
+            height: 12px;
+            border-left: 3px solid #0fabfe;
+            text-align: center;
+            font-size: 10px;
+            line-height: 12px;
+            float: left;
+        }
+
+        #header .header .di2 .sousuo {
+            float: right;
+            width: 248px;
+            height: 36px;
+            margin-right: 174px;
+            margin-top: 10px;
+        }
+
+        #header .header .di3 {
+            height: 43px;
+            width: 1348px;
+            background: #105796;
+            display: flex;
+            justify-content: center;
+        }
+
+        #header .header .di3 .xiangmu {
+            font-size: 16px;
+            margin-right: 28px;
+            color: #fff;
+            line-height: 43px;
+        }
+
+        #banner {
+            width: 100%;
+            height: 440px;
+        }
+
+        #banner .banner {
+            width: 1348px;
+            height: 440px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #banner .banner .box{
+            width: 6740px;
+            height: 440px;
+            position: relative;
+            left:0;
+        }
+        #banner .banner .box .img1 {
+            float: left;
+            width: 1348px;
+            height: 440px;
+        }
+        #body{
+            width: 100%;
+            height: 606px;
+        }
+        #body .body{
+            width: 1000px;
+            margin: 0 auto;
+            height: 606px;
+        }
+        #body .body .tit{
+            width: 1000px;
+            height: 68px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 68px;
+            color: blue;
+            font-weight: 500;
+        }
+        #body .body .pro1{
+            width: 1000px;
+            height: 72px;
+            margin-bottom: 14px;
+        }
+        #body .body .pro1 .di1{
+            width: 100px;
+            height: 72px;
+            background: #e9bd29;
+            float: left;
+        }
+        #body .body .pro1 .di1 .jiao{
+            margin-top: 10px;
+            margin-left: 36px;
+            margin-bottom: 10px;
+        }
+        #body .body .pro1 .di1 .jiaowu{
+            font-size: 13px;
+            line-height: 13px;
+            text-align: center;
+            color: #fff;
+        }
+        #body .body .pro2{
+            height: 305px;
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #body .body .pro1 .pr1{
+            width: 300px;
+            height: 305px;
+        }
+        #body .body .pro2 .pr1 .prtit{
+            height: 56px;
+            width: 300px;
+            border-bottom: 3px solid #064f91;
+            font-size: 20px;
+            line-height: 56px;
+            color: #004685;
+        }
+        #body .body .pro2 .pr1 .ol1{
+            height: 246px;
+            width: 300px;
+        }
+        #body .body .pro2 .pr1 .ol1 .li1{
+            font-size: 14px;
+            margin-top: 10px;
+            margin-left: 17px;
+            list-style-type: disc;
+            color: blue;
+        }
+        #body .body .pro3{
+            height: 144px;
+            width: 1000px;
+            background: #f0f8fb;
+        }
+        #body .body .pro3 .tit{
+            height: 58px;
+            font-size: 20px;
+            line-height: 58px;
+            color: #004685;
+            font-weight: 500;
+            width: 1000px;
+            text-align: start;
+        }
+        #body .body .pro3 .di1{
+            display: flex;
+            justify-content: space-between;
+        }
+        #body .body .pro3 .di1 .di11{
+            width: 300px;
+            height: 64px;
+        }
+        #body .body .pro3 .di1 .di11 .d1{
+            width: 58px;
+            height: 64px;
+            font-size: 50px;
+            line-height: 64px;
+            text-align: center;
+            background: #deeef5;
+            color: #064fa0;
+            float: left;
+        }
+        #body .body .pro3 .di1 .di11 .d2{
+            font-size: 15px;
+            line-height: 32px;
+            color: #0fabfe;
+        }
+        #footer{
+            width: 100%;
+            height: 120px;
+            background: #165186;
+        }
+        #footer .footer{
+            width: 1000px;
+            margin: 0 auto;
+            height: 120px;
+        }
+        #footer .footer .er{
+            float: left;
+            margin-left: 10px;
+        }
+        #footer .footer .pro{
+            margin-top: 30px;
+            float: right;
+        }
+        #footer .footer .pro .di1{
+            font-size: 11px;
+            margin-bottom: 13px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="header">
+            <div class="di1"></div>
+            <div class="di2">
+                <img src="./img/logo.png" alt="" class="logo">
+                <div class="pro">
+                    <div class="pro1">进入内网</div>
+                    <div class="pro1">进入内网</div>
+                    <div class="pro1">进入内网</div>
+                    <div class="pro1">进入内网</div>
+                </div>
+                <input type="text" class="sousuo">
+            </div>
+            <div class="di3">
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+                <div class="xiangmu">
+                    学院概况
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="banner">
+            <div class="box">
+                    <img
+                    src="http://www.hzjxy.org.cn/_upload/article/images/4e/2e/025e83164f1a9fcaceb0b0f1ae4a/33f0d0c0-e159-4551-90ca-8bf0596e3594.jpg" alt="" class="img1">
+                <img
+                    src="http://www.hzjxy.org.cn/_upload/article/images/1f/e0/9e85066a42afac8e953ab0d361b7/8aa37653-ad4b-41c3-b11e-788c3e731fcc.jpg" alt="" class="img1">
+                <img
+                    src="http://www.hzjxy.org.cn/_upload/article/images/5c/de/c32207244fe6ad3f4d340f55c775/c389688a-e0f3-494f-8069-4150ded6ca7d.jpg" alt="" class="img1">
+                <img
+                    src="http://www.hzjxy.org.cn/_upload/article/images/1c/82/4603d7a14a578a1441ed770f74b4/a0da69ad-b97c-46f7-a987-c5c3041db585.jpg" alt="" class="img1">
+                    <img
+                    src="http://www.hzjxy.org.cn/_upload/article/images/4e/2e/025e83164f1a9fcaceb0b0f1ae4a/33f0d0c0-e159-4551-90ca-8bf0596e3594.jpg" alt="" class="img1">
+            </div>
+        </div>
+    </div>
+    <div id="body">
+        <div class="body">
+            <div class="tit">
+                校园文化：以黄炎培职业教育思想为引领，有机融合地域产业文化精神。
+            </div>
+            <div class="pro1">
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+                <div class="di1">
+                    <img src="img/jiao.png" alt="" class="jiao">
+                    <div class="jiaowu">
+                        教务管理
+                    </div>                   
+                </div>
+            </div>
+            <div class="pro2">
+                <div class="pr1">
+                    <div class="prtit">
+                        学院新闻
+                    </div>
+                    <ol class="ol1">
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                    </ol>
+                </div>
+                <div class="pr1">
+                        <div class="prtit">
+                            学院新闻
+                        </div>
+                        <ol class="ol1">
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                        </ol>
+                    </div>
+                    <div class="pr1">
+                            <div class="prtit">
+                                学院新闻
+                            </div>
+                            <ol class="ol1">
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                                <li class="li1">[图文]学校党委领导慰问驻村工作</li>
+                            </ol>
+                        </div>
+            </div>
+            <div class="pro3">
+                <div class="tit">
+                    通知公告
+                </div>
+                <div class="di1">
+                    <div class="di11">
+                        <div class="d1">
+                            20
+                        </div>
+                        <div class="d2">
+                            哈尔滨职业技术学院2019年公开招聘高层次人才现场资格确认通知
+                        </div>
+                    </div>
+                    <div class="di11">
+                            <div class="d1">
+                                20
+                            </div>
+                            <div class="d2">
+                                哈尔滨职业技术学院2019年公开招聘高层次人才现场资格确认通知
+                            </div>
+                        </div>
+                        <div class="di11">
+                                <div class="d1">
+                                    20
+                                </div>
+                                <div class="d2">
+                                    哈尔滨职业技术学院2019年公开招聘高层次人才现场资格确认通知
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer">
+            <img src="img/er.png" alt="" class="er">
+            <div class="pro">
+                <div class="di1">哈尔滨职业技术学院 版权所有</div>
+                <div class="di1">哈尔滨职业技术学院 版权所有</div>
+                <div class="di1">哈尔滨职业技术学院 版权所有</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var banner = document.querySelector('.box');
+        var start, end, tween, timer1;
+        var index = 0; //对应照片的索引
+        var w = 1348;
+        function next() {
+            clearInterval(timer1);
+            index++;
+            if (index == 5) {
+                banner.style.left = 0 + 'px';
+                index = 1;
+            }
+            end = -index * w;
+            timer1 = setInterval(() => {
+                start = banner.offsetLeft;
+                tween = (end - start);
+                tween = tween < 0 ? Math.floor(tween) : Math.ceil(tween);
+                start += tween;
+                if (start == end) {
+                    clearInterval(timer1);
+                    timer1 = setTimeout(next, 1500);
+                };
+                banner.style.left = start + 'px';
+            }, 100)
+        }
+        next();
+
+    </script>
+</body>
+
+</html>

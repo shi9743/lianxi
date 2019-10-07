@@ -1,0 +1,26 @@
+		#notice{
+			width: 100%;
+			height: 36px;
+		}
+		#notice .notice{
+			width: 1066px;
+			height: 36px;
+			margin: 0 auto;
+			background: url(../img/laba.png) no-repeat 20px 8px;
+			border-bottom: 1px solid #f2f1ef;
+			position: relative;
+		}
+		#notice .notice .di1{
+			width: 302px;
+			height: 12px;
+			font-size: 12px;
+			line-height: 12px;
+			padding-top: 13px;
+			margin-left: 50px;
+		}
+		#notice .notice .xia{
+			position: absolute;
+			right: 50%;
+			bottom: -1px;
+			margin-right: -20px;
+		}

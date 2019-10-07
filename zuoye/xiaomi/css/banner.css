@@ -1,0 +1,135 @@
+		#banner{
+			width: 100%;
+			height: 688px;
+		}
+		#banner .banner{
+			width: 1226px;
+			height: 688px;
+			margin: 0 auto;
+		}
+		#banner .banner .di1{
+			position: relative;
+			width: 1226px;
+			height: 460px;
+			overflow: hidden;
+		}
+		#banner .banner .di1 .abanner{
+			width: 6130px;
+			height: 460px;
+			display: block;	
+			position: relative;					
+		}
+		#banner .banner .di1 .abanner .tu{
+			width: 1226px;
+			height: 460px;
+			float: left;
+		}
+		#banner .banner .di1 .liebiao{
+			width: 204px;
+			height: 426px;
+			padding-top: 34px;
+			padding-left: 30px;
+			float: left;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0,0.6);
+		}
+		#banner .banner .di1 .liebiao .a2{
+			display: block;
+			line-height: 13px;
+			margin-bottom: 30px;
+			color: #fff;
+			background: url(../img/you.png) no-repeat 173px 0px;
+		}
+		#banner .banner .di1 .liebiao .a2:hover{
+			color: red;
+		}
+		#banner .banner .di1 .zuo{
+			width: 42px;
+			height: 69px;
+			float: left;
+			position: absolute;
+			top: 50%;
+			left: 234px;
+			margin-top: -34px;
+			background: url(../img/slide.png) -85px 0px no-repeat;
+		}
+		#banner .banner .di1 .zuo:hover{
+			background: url(../img/slide.png) no-repeat;
+		}
+		#banner .banner .di1 .you{
+			width: 42px;
+			height: 69px;
+			float: right;
+			position: absolute;
+			top: 50%;
+			right: 0px;
+			margin-top: -34px;
+			background: url(../img/slide.png) -127px 0px no-repeat;
+		}
+		#banner .banner .di1 .you:hover{
+			background: url(../img/slide.png) -43px 0px ;
+		}
+		#banner .banner .di1 .dian{
+			height: 10px;
+			width: 100px;
+			position: absolute;
+			right: 25px;
+			bottom: 25px;
+		}
+		#banner .banner .di1 .dian .sp1{
+			height: 6px;
+			width: 6px;
+			margin-right: 10px;
+			float: left;
+			border: 2px solid #be9a42;
+			border-radius: 50%;
+		}
+		#banner .banner .di1 .dian .sp1:hover{
+			background-color: blue;
+		}
+		#banner .banner .di2{
+			/*position: relative;*/
+			width: 1226px;
+			height: 170px;
+			margin-top: 14px;
+			/*background: red;*/
+		}
+		#banner .banner .di2 .iv1{
+			width: 225px;
+			height: 161px;
+			padding-top: 9px;
+			padding-left: 9px;
+			background: #5f5750;
+			float: left;
+		}
+		#banner .banner .di2 .iv1 .a1{
+			width: 70px;
+			height: 75px;
+			float: left;
+			border-right: 1px solid #665e57;
+			border-bottom: 1px solid #665e57;
+		}
+		#banner .banner .di2 .iv1 .a1:hover{
+			background: red;
+		}
+		#banner .banner .di2 .iv1 .a1 .dianxin{
+			margin-top: 15px;
+			margin-left: 22px;
+			margin-bottom: 10px;
+		}
+		#banner .banner .di2 .iv1 .a1 .sp1{
+			display: block;
+			font-size: 11px;
+			text-align: center;
+			line-height: 11px;
+			color: #cdcac8;
+		}
+		#banner .banner .di2 .iv2{
+			width: 316px;
+			height: 170px;
+			float: left;
+			background: #f9c356;
+			margin-left: 14px;
+		}

@@ -1,0 +1,93 @@
+		#footer{
+			width: 100%;
+			height:267px;
+		}
+		#footer .footer{
+			width: 1066px;
+			height: 234px;
+			margin: 0 auto;
+			/*background: red;*/
+			padding-top: 33px;
+			position: relative;
+		}
+		#footer .footer .tit{
+			margin-left: 20px;
+			
+		}
+		#footer .footer .tit .sp1{
+			font-size: 15px;
+			line-height: 15px;
+			margin-right: 743px;
+			float: left;
+		}
+		#footer .footer .tit .sp1{
+			font-size: 15px;
+			line-height: 15px;
+			/*margin-right: 743px;*/
+			float: left;
+		}
+		#footer .footer .pingtai{
+			width: 741px;
+			height: 92px;
+			/*background: blue;*/
+			margin-left: 34px;
+		}
+		#footer .footer .pingtai .a1{
+			width: 102px;
+			height: 25px;
+			margin-top: 16px;
+			margin-right: 16px;
+			/*background: yellow;*/
+			float: left;
+			color: #000;
+			font-size: 12px;
+			line-height: 25px;
+		}
+		#footer .footer .p1{
+			font-size: 15px;
+			line-height: 15px;
+			/*margin-right: 743px;*/
+			/*float: left;*/
+			margin-left: 20px;
+			padding-top: 40px;
+		}
+		#footer .footer .huoban{
+			width: 704px;
+			height: 58px;
+			/*background: yellow;*/
+			margin-left: 34px;
+		}
+		#footer .footer .huoban .a1{
+			font-size: 12px;
+			line-height: 12px;
+			padding-top: 14px;
+			margin-right: 33px;
+			color: #404040;
+		}
+		#footer .footer .xueyuan{
+			width: 97px;
+			height: 25px;
+			position: absolute;
+			top: 63px;
+			right: 154px;
+		}
+		#footer .footer .xueyuan .a1{
+			float: left;
+		}
+		#footer .footer .xueyuankongjian{
+			width: 100px;
+			height: 19px;
+			position: absolute;
+			bottom: 112px;
+			right: 154px;
+		}
+		#footer .footer .xueyuankongjian .a1{
+			float: left;
+		}
+		#footer .footer .guanzhu{
+			font-size: 15px;
+			line-height: 15px;
+			position: absolute;
+			bottom: 135px;
+			right: 176px;
+		}

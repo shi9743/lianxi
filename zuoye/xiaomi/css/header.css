@@ -1,0 +1,103 @@
+		#header{
+			width: 100%;
+			height: 40px;
+			background: #333;
+		}
+		#header .header{
+			width: 1226px;
+			height: 40px;
+			margin:0 auto;
+			/*background: red;*/
+		}
+		#header .header .nav{
+			width: 1086px;
+			height: 11px;
+			padding-top: 14px;
+			/*background: blue;*/
+			float: left;
+		}
+		#header .header .nav .a1{
+			font-size: 11px;
+			line-height: 11px;
+			color: #b0b0b0;
+			padding-right: 9px;
+			float: left;
+			border-right: 1px solid #424242;
+		}
+		#header .header .nav .a1:hover{
+			color: red;
+		}
+		#header .header .nav .a2{
+			padding-left: 8px;
+
+		}
+		#header .header .nav .a3{
+			font-size: 11px;
+			line-height: 11px;
+			color: #b0b0b0;
+			float: left;
+			padding-left: 8px;						
+		}
+		#header .header .nav .a3:hover{
+			color: red;
+		}
+		#header .header .nav .for{
+			width: 65px;
+			height: 11px;
+			float: right;
+			/*background: pink;*/
+		}
+		#header .header .nav .for .denglu{
+			font-size: 11px;
+			line-height: 11px;
+			width: 32px;
+			color: #b0b0b0;
+			float: left;
+			border-right: 1px solid #424242;
+		}
+		#header .header .nav .for .zhuce{
+			font-size: 11px;
+			line-height: 11px;
+			width: 32px;
+			color: #b0b0b0;
+			float: left;
+			text-indent: 7px;
+		}
+		#header .header .nav .for .denglu:hover{
+			color: red;
+		}
+		#header .header .nav .for .zhuce:hover{
+			color: red;
+		}
+		#header .header .gouwu{
+			width: 120px;
+			height: 40px;
+			float: right;
+			position: relative;
+		}
+		#header .header .gouwu .a1{
+			display: block;
+			font-size: 11px;
+			line-height: 40px;
+			height: 40px;
+			padding-left: 41px;
+			width: 79px;
+			color: #b0b0b0;
+			background: url(../img/car.png) no-repeat 17px 14px #424242;
+		}
+		#header .header .gouwu .a1:hover{
+			background-color: red;
+		}
+		#header .header .gouwu .di1{
+			height: 150px;
+			width: 300px;
+			display: none;
+			position: absolute;
+			top: 40px;
+			right: 0px;
+			background: blue;
+			z-index: 999;
+		}
+		#header .header .gouwu:hover .di1{
+			display: block;
+		}

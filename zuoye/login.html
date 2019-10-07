@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" id="formtable">
+        <div>
+            <label for="">用户名</label>
+            <input type="text" name="username">
+        </div>
+        <div>
+            <label for="">密码</label>
+            <input type="password" name="password">
+        </div>
+        <button id="btn">登录</button>
+    </form>
+    <script>
+        var formtable=document.querySelector('#formtable');
+        formtable.addEventListener('submit',function(e){
+            e.preventDefault();
+            var username=this.username.value;
+            var password=this.password.value;
+            var xhr=new XMLHttpRequest;
+            xhr.open('post','login.php');
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4 && xhr.status==200){
+                    var data=JSON.parse(xhr.responseText);                    
+                    if(data.code==2){
+                        alert(data.msg);
+                        location='zhuye.html';
+                    }else if(data.code==-3){
+                        alert(data.msg);
+                    }
+                }
+            }
+            xhr.send('username='+username+'&password='+password);
+        })
+    </script>
+</body>
+
+</html>
